@@ -1,0 +1,68 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.embeddeddatasystems.convertxml",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "brandColor": "#063190",
+  "sdk": 3,
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "name": {
+    "en": "EDS XML Converter"
+  },
+  "description": {
+    "en": "Converts the special XML-format from Embeddes Data Systems OW Server v2 Enet"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Rikard Nilsson",
+    "email": "janrikard@gmail.com"
+  },
+  "flow": {
+    "actions": [
+      {
+        "id": "convert-edx-xml-to-json",
+        "title": {
+          "en": "Convert EDS XML To Json"
+        },
+        "titleFormatted": {
+          "en": "Convert [[XMLinput]] To Json"
+        },
+        "hint": {
+          "en": "Conver EDS XML To Json"
+        },
+        "args": [
+          {
+            "type": "text",
+            "name": "XMLinput",
+            "placeholder": {
+              "en": "Xml-input"
+            }
+          }
+        ],
+        "tokens": [
+          {
+            "name": "json_output",
+            "type": "string",
+            "title": {
+              "en": "JSON_output"
+            },
+            "example": {
+              "en": "{temperature:[{838337:15,838338:14}]}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

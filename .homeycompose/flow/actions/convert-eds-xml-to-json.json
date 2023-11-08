@@ -1,0 +1,29 @@
+{ "id": "convert-edx-xml-to-json",
+  "title": {
+    "en": "Convert EDS XML To Json"
+  },
+  "titleFormatted": {
+    "en": "Convert [[XMLinput]] To Json"
+  },
+  "hint": {
+    "en": "Conver EDS XML To Json"
+  },
+  "args": [
+    {
+      "type": "text",
+      "name": "XMLinput",
+      "placeholder": {
+        "en": "Xml-input"
+      }
+    }
+  ],
+  "tokens":[
+    {
+      "name": "json_output",
+      "type": "string",
+      "title": { "en": "JSON_output" },
+      "example": { "en": "{temperature:[{838337:15,838338:14}]}" }
+    }
+
+  ]
+}

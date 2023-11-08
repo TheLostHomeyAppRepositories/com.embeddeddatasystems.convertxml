@@ -1,0 +1,30 @@
+{
+  "id": "com.embeddeddatasystems.convertxml",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "brandColor": "#063190",
+  "sdk": 3,
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "name": {
+    "en": "EDS XML Converter"
+  },
+  "description": {
+    "en": "Converts the special XML-format from Embeddes Data Systems OW Server v2 Enet"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Rikard Nilsson",
+    "email": "janrikard@gmail.com"
+  }
+}
