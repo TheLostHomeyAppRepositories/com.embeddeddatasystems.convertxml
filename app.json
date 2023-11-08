@@ -10,10 +10,10 @@
     "cloud"
   ],
   "name": {
-    "en": "EDS XML Converter"
+    "en": "Embedded Data Systems"
   },
   "description": {
-    "en": "Converts the special XML-format from Embeddes Data Systems OW Server v2 Enet"
+    "en": "Converts the special XML-format from Embeddeds Data Systems OW Server v2 Enet"
   },
   "category": [
     "tools"
@@ -28,6 +28,10 @@
     "name": "Rikard Nilsson",
     "email": "janrikard@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/janrikard/com.embeddeddatasystems.convertxml/issues"
+  },
+  "source": "https://github.com/janrikard/com.embeddeddatasystems.convertxml",
   "flow": {
     "actions": [
       {
