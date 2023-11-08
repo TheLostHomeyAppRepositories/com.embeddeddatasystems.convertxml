@@ -3,12 +3,7 @@
 const Homey = require('homey');
 
 
-var linenumber=1;
 
-var ROMId=null;
-var temperature=null;
-var tempstring=null;
-var array =[];
 
 class MyApp extends Homey.App {
 
@@ -21,7 +16,12 @@ class MyApp extends Homey.App {
     const card =this.homey.flow.getActionCard('convert-edx-xml-to-json');
 
     card.registerRunListener(async (args) => {
+      let linenumber=1;
 
+      let ROMId=null;
+      let temperature=null;
+      let tempstring=null;
+      let array =[];
       let jsonstring="\{\r\n\t\"Temperature\": \{\r\n\t\t\t";
       
       const { XMLinput } = args;
