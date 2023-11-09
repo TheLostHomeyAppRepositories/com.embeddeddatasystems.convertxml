@@ -11,7 +11,6 @@ class EDSxml extends Homey.App {
    * onInit is called when the app is initialized.
    */
   async onInit() {
-    this.log('MyApp has been initialized');
 
     const card =this.homey.flow.getActionCard('convert-edx-xml-to-json');
 
@@ -68,9 +67,6 @@ class EDSxml extends Homey.App {
       array =[];
 
       jsonstring+="\}\r\n\t\t\r\n\t\}";
-      this.log(jsonstring);
-      this.log(array);
-      this.log(`Klart`);
       return {
         json_output: jsonstring
       };
