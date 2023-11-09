@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "brandColor": "#063190",
+  "homeyCommunityTopicId": 94145,
   "sdk": 3,
   "platforms": [
-    "local",
-    "cloud"
+    "local"
   ],
   "name": {
     "en": "Embedded Data Systems"
@@ -30,6 +30,6 @@
   "bugs": {
     "url": "https://github.com/janrikard/com.embeddeddatasystems.convertxml/issues"
   },
-  "source": "https://github.com/janrikard/com.embeddeddatasystems.convertxml",
-  "homeyCommunityTopicId": 94145
+  "source": "https://github.com/janrikard/com.embeddeddatasystems.convertxml"
+  
 }
