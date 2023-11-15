@@ -1,6 +1,6 @@
 {
   "id": "com.embeddeddatasystems.convertxml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=5.0.0",
   "brandColor": "#063190",
   "homeyCommunityTopicId": 94145,
@@ -31,5 +31,4 @@
     "url": "https://github.com/janrikard/com.embeddeddatasystems.convertxml/issues"
   },
   "source": "https://github.com/janrikard/com.embeddeddatasystems.convertxml"
-  
 }
