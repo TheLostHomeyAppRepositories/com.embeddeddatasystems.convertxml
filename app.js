@@ -281,7 +281,7 @@ module.exports = class MyApp extends Homey.App {
     })	
   }
 
-}
+};
 
 
-module.exports = EDSxml;
+

@@ -7,5 +7,11 @@
   },
   "1.1.0": {
     "en": "Added support for DS2406 Dual Addressable Switch"
+  },
+  "1.2.0": {
+    "en": "added some support for  DS2423 och EDS0068"
+  },
+  "1.2.1": {
+    "en": "minor fix"
   }
 }
